@@ -1,0 +1,384 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Raleway;
+}
+.container{
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.header img{
+    width: 4.5rem;
+    height: 1.3rem;
+    color: black;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    gap: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color:  hsl(238, 22%, 44%);
+    font-size: .9rem;
+}
+.hero-img{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.hero-img img{
+    width: 250px;
+    height: 200px;
+}
+.hero-header-email h2{
+    padding: 10px 0px;
+    width: 330px;
+    margin: 0px auto;
+    text-align: center;
+    font-weight: 700;
+    font-family: open sans;
+    color: hsl(243, 87%, 12%);
+}
+.hero-header-email p{
+    width: 340px;
+    font-family: open sans;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px auto;
+    color: hsl(243, 87%, 12%);
+}
+.hero-header-email input{
+    width: 300px;
+    height: 30px;
+    margin-left: 30px;
+    outline: none;
+}
+input::placeholder{
+    color: hsl(0, 0%, 75%);
+    text-align:;
+}
+.hero-header-email button{
+    width: 303px;
+    height: 30px;
+    margin: 10px 8%;
+    font-family: open sans;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 3px;
+}
+section{
+    background-image: url("images/bg-curve-mobile.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    width: 100vw;
+    min-height: 800px;
+}
+.section-img {
+    width: 100vw;
+}
+.section-img img{
+    width: 375;
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 20%;
+}
+.section-text h3{
+    margin: 30px 10%;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.section-text p{
+    width: 350px;
+    margin: 20px 10px;
+}
+.section-text span{
+    color: hsl(170, 45%, 43%);
+}
+.section-text img{
+    margin: 0px 5px;
+    align-items: center;
+}
+.testimonials{
+    width: 250px;
+    min-height: 80px;
+    box-shadow: .5px .2px 1px 3px rgb(238, 238, 238);
+    margin: 30px auto;
+    padding: 30px 20px;
+    border-radius: 3px;
+}
+.green-text{
+    border-bottom:2px solid green;
+    width: 140px ;
+    margin: 10px auto;
+}
+.green-text span{
+    font-size: .8rem;
+}
+.testimonials span{
+    font-size: .7rem;
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
+    width: 200px;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin-top: 20px;
+}
+.profile img{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin: auto 0px;
+}
+.profile span{
+    margin: none;
+    font-weight: 600;
+    font-size: .6rem;
+}
+.profile-name{
+    padding-left: 10px;
+}
+.profile p{
+    width: 150px;
+    margin: 0px;
+    font-size: .8rem;
+    font-weight: 700;
+}
+.section2{
+    background-color: hsl(238, 22%, 44%);
+    max-height: 400px;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.section2 h3{
+    text-align: center;
+    margin: 20px 0px;
+    color: white;
+}
+.section2 p{
+    color: rgb(240, 240, 240);
+    text-align: center;
+    font-size: .8rem;
+    width: 250px;
+    margin: 0px auto;
+}
+.section2 input::placeholder{
+    color: hsl(0, 0%, 75%);
+}
+.section2 input{
+    width: 250px;
+    height: 25px;
+    margin: 0px auto;
+    margin-top: 20px;
+    border-radius: 3px;
+    outline: none;
+}
+.section2 button{
+    color: white;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 3px;
+    width: 250px;
+    height: 25px;
+    font-weight: 800;
+    margin: 6px auto;
+}
+footer{
+    width: 100vw;
+    max-height: 500px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+}
+.footer-logo img{
+    color: #BDBAFA;
+    margin-left: 10px;
+    width: 110px;
+    height: 30px;
+    padding-left: 20px;
+}
+.phone{
+    width: 100%;
+    margin: 20px 6px;
+    display: flex;
+    gap: 20px;
+}
+.phone img{
+    width: 12px;
+    height: 13px;
+}
+.phone span{
+    color: white;
+    width: 300px;
+    font-size: .8rem;
+    font-family: Raleway;
+}
+.email{
+    display: flex;
+    margin: 15px 6px;
+    gap:20px;
+}
+.email img{
+    width: 15px;
+    height: 13px;
+}
+.email span{
+    font-size: .8rem;
+    font-weight: 400;
+}
+.ab-jo{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.ab-jo ul li{
+    list-style-type: none;
+    margin: 10px;
+}
+.cont-ter{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+.cont-ter ul li{
+    list-style-type: none;
+    margin: 10px;
+}
+.icons{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    gap: 30px;
+    margin: 30px auto;
+}
+.facebook{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twitter{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.instagram{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (width > 375px){
+    .header img{
+    width: 5.5rem;
+    height: 1.8rem;
+    margin-left: 40%;
+    }
+    .header{
+        padding: 20px 60px;
+    }
+    .hero{
+        display: flex;
+        margin-top: 30px;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .hero-img img{
+        width: 350px;
+        height: 300px;
+    }
+    .hero-header-email h2{
+        text-align: inherit;
+        width: 400px;
+        margin-bottom: none;
+        margin-left: 20%;
+    }
+    .hero-header-email p{
+        width: 520px;
+        text-align: inherit;
+        margin-left: 20%;
+    }
+    .input-email{
+        display: flex;
+        flex-direction: row;
+    }
+    .input-email input{
+        margin-left: 20%;
+        width: 400px;
+    }
+    .input-email button{
+        width: 150px;
+        height: 35px;
+        margin: 0;
+    }
+    section{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        min-height: 300px;
+    }
+    .section-img img{
+        width: 350px;
+        height: 300px;
+    }
+    .section-text{
+        margin-top: 20px;
+        margin-left: 10%;
+    }
+    .section-text h3{
+        margin-left: 5px;
+    }
+    .section2{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .section2-text{
+        width: 300px;
+    }
+    .section2 input{
+        margin: 0px;
+    }
+    .section2 button{
+        margin: 0px;
+    }
+}
